@@ -15,7 +15,9 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-st.write('Just entering a random textpost to see if this works!')
+"""
+# Random text here!!
+"""
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 10000, 100)
